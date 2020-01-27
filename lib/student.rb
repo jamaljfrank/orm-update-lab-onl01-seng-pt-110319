@@ -52,7 +52,7 @@ class Student
     new_student
   end
   
-  def self.find_by_name(nane)
+  def self.find_by_name(find_by_name)
     sql = <<-SQL
       SELECT *
       FROM students
